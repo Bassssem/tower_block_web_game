@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Stack game with Three.js and Cannon.js</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div id="instructions">
+<p style="color:red;">8888</p>98989899
+  <div class="content">
+    <p>Stack the blocks on top of each other</p>
+    <p>Click, tap or press Space when a block is above the stack. Can you reach the blue color blocks?</p>
+    <p>Click, tap or press Space to start game</p>
+  </div>
+</div>
+<div id="results">
+  <div class="content">
+    <p>Tower blocks</p>
+    <p>Play and set a record</p>
+    <p>
+
+
+
+<!-- partial:index.partial.html -->
+
+    <a href="\./index1.php"><button class="btn" id="start-btn">PLAY NOW</button></a>
+
+<!-- partial -->
+
+<style>  
+.btn {
+  background: transparent;
+  cursor:pointer;
+  color:rgba(241, 196, 15,1.0);
+  font-weight:bold;
+  padding: 15px 60px;
+  border-radius: 6px;
+  border: 3px solid rgba(241, 196, 15,1.0);
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  background: rgba(241, 196, 15,1.0);
+  color: black;
+}
+
+#btn-start {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+</style>
+
+
+    </p>
+  </div>
+</div>
+<div id="score">0</div>
+
+<a id="youtube" target="_blank" href="https://youtube.com/channel/UCe3nNJ57AJEUkjlom6NxxyQ">
+  <span>Learn Three.js + Cannon.js</span>
+</a>
+<div id="youtube-card">
+  Learn Three.js + Cannon.js while building this game
+</div>
+
+
+
+
+
+<div id="skillshare-card">
+  Learn Three.js + Cannon.js while building this game (free course)
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
